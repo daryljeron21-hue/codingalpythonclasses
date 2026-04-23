@@ -1,0 +1,7 @@
+print("My birthday is on august, its a very special day for me")
+print("My home is decorated with balloons, lights, and colorful decorations")
+print("My Friends and family come over to celebrate, bringing me a lots of gifts but")
+print("the best thing is cutting a delicious cake and eating special food.")
+print("and i will play many fun games my friends and cousins")
+print("and in my every birthday i will open my piggy bank where i was saving money for a whole year")
+print("overall i feel like the best day of the year ends soo fast")
