@@ -1,0 +1,6 @@
+name = "ram"
+achievement = "graduation"
+message = "Congratulations ram for getting gold medal in state game, we are proud about you, good luck"
+
+message = str(message)
+print(message)
