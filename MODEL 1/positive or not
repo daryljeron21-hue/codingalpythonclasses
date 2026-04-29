@@ -1,0 +1,28 @@
+number = 7
+if number>0:
+    print("the number is positive")
+else:
+    print("the number is negative")
+
+#ativity2
+actual_cost =75 #float(input("enter your actual cost of the product"))
+sales_amount =100 #float(input("enter your sales amount"))
+if (sales_amount>actual_cost):
+    amount = sales_amount - actual_cost
+    print("total profit = {0}" .format(amount))
+else:
+        print("no profit !!")
+
+#activity3
+i = 5
+if i<10:
+    print("i is smaller than 10")
+else:
+    print("i is greater than 10")
+
+#activity4
+num = 36
+if num%2==0:
+    print("number is even")
+else:
+    print("number is odd")
