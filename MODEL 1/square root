@@ -1,0 +1,4 @@
+number = 67
+print(number)
+result = number ** 0.5
+print(result)
