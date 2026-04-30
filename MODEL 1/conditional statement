@@ -1,0 +1,7 @@
+weather = "warm" #(hot or cold or warm)
+if weather == "hot":
+    print("it is summer season")
+elif weather == "warm":
+    print("it is spring or autum season")
+else:
+    print("it is winter season")

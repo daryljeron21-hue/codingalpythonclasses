@@ -1,4 +1,4 @@
-number = 7
+number = -34
 if number>0:
     print("the number is positive")
 else:
