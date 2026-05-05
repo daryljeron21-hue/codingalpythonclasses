@@ -23,8 +23,8 @@ else:
     print("no number is greater than zero")
 
 #activity3 BMI checker
-height = 120 #float(input("please enter your height in cm: "))
-weight = 42 #float(input("please enter your weight in kg: "))
+height = 158 #float(input("please enter your height in cm: "))
+weight = 89  #float(input("please enter your weight in kg: "))
 
 BMI = weight / (height/100)**2
 

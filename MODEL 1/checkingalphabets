@@ -1,0 +1,5 @@
+character = "v" #input("enter your character")
+if ("a" <= character) and ("z" >= character):
+    print("YES, its a alphabet")
+else:
+    print("NO, its not a alphabet")
