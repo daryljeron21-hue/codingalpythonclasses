@@ -22,11 +22,11 @@ print("b << 1 =", b << 1)
 
 #activity3
 #print("please enter your marks")
-maths = 80 #int(input())
-english = 67 #int(input())
-science = 90 #int(input())
-social = 80 #int(input())
-tamil = 60 #int(input())
+maths = 0 #int(input())
+english = 0 #int(input())
+science = 40 #int(input())
+social = 30 #int(input())
+tamil = 70 #int(input())
 
 sum = maths + english + science + social + tamil
 average = sum/5

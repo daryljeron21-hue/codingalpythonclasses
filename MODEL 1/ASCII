@@ -1,0 +1,18 @@
+#ASCII codes
+user_input = "C" #input("Enter a character to get its code: ")
+
+for char in user_input:
+    code = ord(char)
+
+if 65 <= code <= 90:
+    type_label = "Upercase letter"
+elif 97 <= code <= 122:
+    type_label = "Lowercase letter"
+elif 48 <= code <= 57:
+    type_label = "Digit"
+elif code == 32:
+    type_label = "Space"
+else:
+    type_label = "Special character"
+
+print(f"'{char}' -> Code: {code} ({type_label})")
