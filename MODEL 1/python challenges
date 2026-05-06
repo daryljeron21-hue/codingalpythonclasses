@@ -1,0 +1,45 @@
+v = 2
+w = 4
+x = 7
+y = 7
+
+z = (v+w) * x / y;
+print("the value of z is", z)
+
+name = "alex"
+age = 3
+if name == "alex" or "john" and age >=2:
+    print("Hello, welcome")
+else:
+    print("Goodbye")
+
+#activity2
+print("please enter the numerator")
+num = 24
+print("please enter your denominator")
+deno = 12
+if num % deno == 0:
+    print("It is divisible")
+else:
+    print("It is not divisible")
+
+#activity3
+mean1 = 38
+wrong_number = 36
+correct_number =56
+total_number = 40
+
+sum = mean1 * total_number
+print("the sum of 40 number", sum)
+
+num2 = sum -((wrong_number) - (correct_number))
+print("sum -((wrong_number) - (correct_number))", num2)
+
+mean2 = num2 / total_number
+print(mean2)
+
+a = 10
+b = 20
+c = 30
+speed = a+b+c
+print(average)
