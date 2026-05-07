@@ -1,0 +1,13 @@
+
+a = 7 #float(input("please enter the number_1: "))
+b = 3 #float(input("please enter the number_2: "))
+c = 0 #float(input("please enter the number_3: "))
+
+swap = a
+a = c      
+c = b      
+b = swap   
+
+print("After sawping: a =",a)
+print("After sawping: b =",b)
+print("After sawping: c =",c)
