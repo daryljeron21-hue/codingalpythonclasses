@@ -22,10 +22,14 @@ else:
 print("choose your ride")
 print("1.Car")
 print("2.Bike")
-choice = "Bike"
+choice = "Bike" #(input("Enter your choice:"))
 if choice == "Bike":
-    print("Thanks")
+    print("Thanks for purchasing")
 elif choice == "Car":
-    print("Thanks")
+    carchoice = (input("Enter your choice 1.BMW or 2.AUDI:"))
+    if Carchoice == "BMW":
+        print("Thanks for purchasing")
+    elif Carchoice == "AUDI":
+        print("Thanks for purchasing")
 else:
-    print("invalid")
+    print("Invalid choice")
