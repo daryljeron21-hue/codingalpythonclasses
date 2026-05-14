@@ -1,0 +1,18 @@
+user_input = 27
+
+if str(user_input).isdigit():
+    number = int(user_input)
+    temp_number = abs(number)
+    
+    if temp_number == 0:
+        digit_count = 1
+    else:
+        digit_count = 0
+        
+        while temp_number > 0:
+            temp_number //= 10  
+            digit_count += 1    
+            
+    print("Total digits",digit_count)
+else:
+    print("Invalid input")
