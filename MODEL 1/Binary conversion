@@ -1,5 +1,5 @@
-decimal_num = 10
+decimal_num = 327
 
-binary_num = format(decimal_num, 'b')
+binary_num = format(decimal_num,'b')
 
 print("The Decimal number",decimal_num,"in The Binary code is",binary_num)
