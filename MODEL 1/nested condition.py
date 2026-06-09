@@ -27,9 +27,9 @@ if choice == "Bike":
     print("Thanks for purchasing")
 elif choice == "Car":
     carchoice = (input("Enter your choice 1.BMW or 2.AUDI:"))
-    if Carchoice == "BMW":
-        print("Thanks for purchasing")
-    elif Carchoice == "AUDI":
-        print("Thanks for purchasing")
-else:
-    print("Invalid choice")
+        if Carchoice == "BMW":
+            print("Thanks for purchasing")
+        elif Carchoice == "AUDI":
+            print("Thanks for purchasing")
+    else:
+        print("Invalid choice")
