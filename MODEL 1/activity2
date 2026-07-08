@@ -1,11 +1,11 @@
 #activity2
 class vehicle:
-    def _int_ (self,max_speed,milage):
+    def __init__ (self,max_speed,mileage):
 
-        self.maxspeed = max_speed
-        self.millage = milage
+        self.max_speed = max_speed
+        self.mileage = mileage
 
 modelX = vehicle(240,18)
 print("modelX max speed is",modelX.max_speed)
-print("modalX milage is",modelX.millage)
+print("modalX milage is",modelX.mileage)
     
