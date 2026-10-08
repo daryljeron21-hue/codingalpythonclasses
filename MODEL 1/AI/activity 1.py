@@ -37,6 +37,6 @@
 #    count += 1
 
 #Activity_5
-def greet(name):
-    return f"Hello {name}!"
-print(greet("Jeron"))
+#def greet(name):
+#    return f"Hello {name}!"
+#print(greet("Jeron"))
