@@ -63,3 +63,4 @@ mood = input(Fore.YELLOW + "How do you feel today? (Describe your mood): ").stri
 print(Fore.BLUE + "\nAnalyzing mood",end="",flush=True); dots()
 mp = TextBlob(mood).sentiment.polarity
 md = "Positive "
+print("Thank you")
