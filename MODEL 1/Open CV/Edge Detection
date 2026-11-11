@@ -39,9 +39,26 @@ def interactive_edge_detection(image_path):
             display_image("Sobel Edge Detection", combined_sobel)
         elif choice == "2":
             print("Adjust thresholds for Canny (default: 100 and 200)")
-            lower_thersh = int(input("Enter Lower threshold: "))
-            upper_thersh = int(input("Enter Upper threshold: "))
-            edges = cv2.Canny(gray_image, lower_thersh, upper_thersh)
+            lower_threshold = int(input("Enter Lower threshold: "))
+            upper_threshold = int(input("Enter Upper threshold: "))
+            edges = cv2.Canny(gray_image, lower_threshold, upper_threshold)
             display_image("Canny Edge Detection", edges)
-        elif choice =="3":
-            laplacian = cv2.Laplacian(gray_image, cv2.CV_64)
+        elif choice == "3":
+            laplacian = cv2.Laplacian(gray_image, cv2.CV_64F)
+            display_image("Laplacian Edge Detection",np.abs(laplacian).astype(np.uint8))
+        elif choice == "4":
+            print("Adjust kernel size for Gaussian Smoothing (must be odd)")
+            kernel_size = int(input("Enter kernel size: "))
+            blurred_image = cv2.GaussianBlur(gray_image, (kernel_size, kernel_size), 0)
+            display_image("Gaussian Smoothing", blurred_image)
+        elif choice == "5":
+            print("Adjust kernel size for Median Filtering (must be odd)")
+            kernel_size = int(input("Enter kernel size: "))
+            median_filtered_image = cv2.medianBlur(gray_image, kernel_size)
+            display_image("Median Filtering", median_filtered_image)
+        elif choice == "6":
+            print("Exiting...")
+            break
+        else:
+            print("Invalid choice. Please enter a number between 1 and 6.")
+interactive_edge_detection("Pixel_Art.jpg")
