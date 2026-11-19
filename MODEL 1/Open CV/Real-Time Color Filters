@@ -47,7 +47,7 @@ def main():
         key = cv2.waitKey(1) & 0xFF
         if key == ord('r'):
             filter_type = "red tint"
-        elif key == ord('g'):
+        elif key == ord('G'):
             filter_type = "green tint"
         elif key == ord('b'):
             filter_type = "blue tint"
